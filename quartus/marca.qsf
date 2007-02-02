@@ -65,7 +65,7 @@ set_global_assignment -name RESERVE_ALL_UNUSED_PINS_NO_OUTPUT_GND "AS INPUT TRI-
 
 # Simulator Assignments
 # =====================
-set_global_assignment -name VECTOR_INPUT_SOURCE "z:\\mnt\\wolfgang\\marca\\sim\\sim1.vwf"
+set_global_assignment -name VECTOR_INPUT_SOURCE ..\\sim\\sim1.vwf
 set_global_assignment -name SETUP_HOLD_DETECTION ON
 set_global_assignment -name SIMULATION_VDB_RESULT_FLUSH OFF
 
